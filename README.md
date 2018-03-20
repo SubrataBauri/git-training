@@ -180,3 +180,5 @@ Push all of your local branches to the specified remote.
 
 **git push `<remote>` --tags**
 Tags aren’t automatically pushed when you push a branch or use the --all flag . The --tags flag sends all of your local tags to the remote repo.
+
+## [NEXT -> Install git on Mac/Windows/Linux](INSTALL.md)
