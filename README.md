@@ -8,6 +8,9 @@ Create empty Git repo in specified directory. Run with no arguments to initializ
 ### git clone `<repo>`
 Clone repo located at `<repo>` onto local machine. Original repo can be located on the local filesystem or on a remote machine via HTTP or SSH.
 
+### git clone `<repo>` `.`
+the dot at the end makes it so it only pulls the files, and doesn't include the folder your project is in on git repository.
+
 ### git config user.name `<name>`
 Define author name to be used for all commits in current repo. Devs commonly use --global flag to set config options for current user.
 
